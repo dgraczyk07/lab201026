@@ -134,7 +134,7 @@ while (true) {
             cout << "Wynik dzielenia : " << a / b << endl; 
         }
     }
-
+     
     cout << "Czy chcesz zakonczyc program?" << endl;
     cin >> znak;
     if (znak == 't' || znak == 'T') {
