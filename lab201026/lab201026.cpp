@@ -63,7 +63,7 @@ int main() {
      */
 
      /*
-     
+
      double a; //lepiej w switch
       double b;
       int znak;
@@ -107,79 +107,79 @@ int main() {
 
      */
 
-    /* zad 6.
-    
-    double a; //lepiej w switch
-    double b;
-    char znak;
+     /* zad 6.
 
-    while (true) {
+     double a; //lepiej w switch
+     double b;
+     char znak;
 
-        cout << "Podaj pierwsza liczbe: " << endl;
-        cin >> a;
-        cout << "Podaj druga liczbe : " << endl;
-        cin >> b;
-        cout << "Wprowadz znak dzialania: " << endl;
-        cin >> znak;
+     while (true) {
 
-        if (znak == '+') {
-            cout << "Wynik dodawania : " << a + b << endl;
-        }
-        else if (znak == '-') {
-            cout << "Wynik odejmowania: " << a - b << endl;
-        }
-        else if (znak == '*') {
-            cout << "Wynik mnozenia : " << a * b << endl;
-        }
+         cout << "Podaj pierwsza liczbe: " << endl;
+         cin >> a;
+         cout << "Podaj druga liczbe : " << endl;
+         cin >> b;
+         cout << "Wprowadz znak dzialania: " << endl;
+         cin >> znak;
 
-        else if (znak == '/') {
-            if (b == 0) {
-                cout << "Nie mozna dzielic przez zero" << endl;
-            }
-            else {
-                cout << "Wynik dzielenia : " << a / b << endl;
-            }
-        }
+         if (znak == '+') {
+             cout << "Wynik dodawania : " << a + b << endl;
+         }
+         else if (znak == '-') {
+             cout << "Wynik odejmowania: " << a - b << endl;
+         }
+         else if (znak == '*') {
+             cout << "Wynik mnozenia : " << a * b << endl;
+         }
 
-        cout << "Czy chcesz zakonczyc program?" << endl;
-        cin >> znak;
-        if (znak == 't' || znak == 'T') {
-            break;
-        }
-        else if (znak == 'n' || znak == 'N') {
-            continue;
-        }
-        else if (znak != 't' && znak != 'T' && znak != 'n' && znak != 'N') {
-            cout << "Niepoprawny znak" << endl;
-        }
-    }*/
+         else if (znak == '/') {
+             if (b == 0) {
+                 cout << "Nie mozna dzielic przez zero" << endl;
+             }
+             else {
+                 cout << "Wynik dzielenia : " << a / b << endl;
+             }
+         }
 
-/* zad. 7.
+         cout << "Czy chcesz zakonczyc program?" << endl;
+         cin >> znak;
+         if (znak == 't' || znak == 'T') {
+             break;
+         }
+         else if (znak == 'n' || znak == 'N') {
+             continue;
+         }
+         else if (znak != 't' && znak != 'T' && znak != 'n' && znak != 'N') {
+             cout << "Niepoprawny znak" << endl;
+         }
+     }*/
 
-int i;
-i = 0;
-    while (1) {
-        cout << i++ << endl;
-            if (i == 200) {
-                break;
-            }
+     /* zad. 7.
+
+     int i;
+     i = 0;
+         while (1) {
+             cout << i++ << endl;
+                 if (i == 200) {
+                     break;
+                 }
+     }
+     */
+
+     /*int n;
+     int i;
+     cout << "Wprowadz dowolna liczbe naturalna dodatnia: " << endl;
+     cin >> n;
+
+     for (i = 2; i <= sqrt(n); i++) {
+         if (n% i == 0) {
+             cout << "Podana liczba posiada dzielnik z przedzialu [2," << sqrt(n) << "]" << endl;
+             break;
+             }
+
+
+         }
+     */
+
+
 }
-*/
-  
-int n;
-int i;
-cout << "Wprowadz dowolna liczbe naturalna dodatnia: " << endl;
-cin >> n;
-
-for (i = 2; i <= sqrt(n); i++) {
-    if (n% i == 0) {
-        cout << "Podana liczba posiada dzielnik z przedzialu [2," << sqrt(n) << "]" << endl;
-        break;
-        }
-
-
-    }
-
-
-}
-
